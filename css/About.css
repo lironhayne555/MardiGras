@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pattaya'; 
+    font-family: 'Henny Penny';  
+    font-family: 'Roboto', sans-serif;      
+}
+h3.card-title{
+    margin: auto;
+}
+div.about-wrap{
+    background-color: #a77cb2c2;
+    font-size: x-small;
+    box-shadow: 1px -11px 13px -10px rgb(0 0 0 / 50%);
+    border-radius: 0%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    height: 80%;
+    clip-path: polygon(0 0, 100% 28%, 100% 91%, 0 77%);
+
+}
+h6.about-title{
+}
+div.LaToya-wrap{
+    background-color: #3fbb5373 ;
+    font-size: x-small;
+    border-radius: 0%;
+    /* padding:11.1em 5%; */
+    clip-path: polygon(0 34%, 100% 0, 100% 81%, 0 74%);
+	
+}
+
+img.Latoya-img{
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    border-radius: 2%;
+    margin-left: 60%;
+
+}
+div.wrap-body{
+    background-color: beige;
+    position: relative;
+    width: 100%;
+   
+}
+div.between-div{
+    margin:0 auto;
+    justify-content: center;
+    width: 100%;
+}
+    h6.Latoya-title{
+        display: inline;
+
+
+}
+p.Latoya-about{
+}
+div.card-about{
+    margin: 10px;
+    height: 100%;
+}
+img.Latoya-img
+{
+    display: inline-block;
+}
+img.latoya-img{
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    display: inline-block;
+}
+div.Latoya-About{
+    margin-bottom: 50%;
+}
+@media (max-width:420px) {
+    div.about-wrap {
+        padding-bottom: 50%;
+        padding-top: 30%;
+        font-size: smaller;
+    }
+    img.latoya-img{
+        width: 24%;
+        margin: 10px;
+    }
+    .Latoya-About
+    {
+        padding-bottom: 50%;
+        padding-top: 40%;
+        font-size: smaller;
+        margin-left: 20%;
+        width: 100%;
+}
+img.Latoya-img{
+        margin-top: 36%;
+        margin-left: 68%;
+}
+    h6.Latoya-title{
+        font-size: small;
+    }
+}
+@media (min-width:700px) {
+    h6.Latoya-title
+    {
+        font-size: x-large;
+        font-weight: 300;
+    }
+    p.Latoya-about{
+        font-size: larger;
+    }
+    img.latoya-img{
+        width: 30%;
+        height: 60%;
+    }
+    div.Latoya-About{
+        width: 87%;
+        margin: auto;
+        
+    }
+    img.Latoya-img{
+
+    }
+    .LaToya-wrap
+    {
+
+        padding: 25.1em 5%;
+    }
+    p.Latoya-about{
+        margin-bottom: 33%;
+        width: 50%;
+    }
+    div.card-body{
+        width: 60%;
+    }
+    .card-text:last-child{
+        margin-bottom: 33%;
+    }
+}

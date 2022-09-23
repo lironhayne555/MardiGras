@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pattaya'; 
+    font-family: 'Henny Penny';  
+    font-family: 'Roboto', sans-serif;      
+}
+div.contact-wrap{
+    background-color: beige;
+}
+div.filed-wrap{
+    display: inline-block;
+    margin-bottom: 2%;
+}
+form.contact-form{
+    text-align: center;
+    width: 68%;
+    margin: auto;
+    padding: 3%;
+    background-color:#a377b024;
+    border-radius: 2%;
+}
+div.filed-wrap input{
+    height: 8vh;
+    width: 85%;
+    padding: 5%;
+    margin-bottom: 2%;
+    /* border: 1px solid var(--bs-purple); */
+    /* background-color: #be9bc7b8; */
+    border-radius: 3%;
+    color: black;
+    font-weight: 500;
+    border: none;
+    background-color: beige;
+    border-bottom: 3px solid #9867a6e3;
+}
+div.filed-wrap input:focus{
+    outline: none;
+    background-color: #9767a454;
+}
+div.filed-wrap input:focus{
+    outline: none;
+}
+input::-moz-focus-inner {
+    border: 0;
+  }
+  div.filed-wrap textarea:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: #9767a454;
+  }
+  div.filed-wrap textarea{
+/* background-color: #45c35959; */
+background-color: beige;
+height: 25vh;
+width: 65vh;
+padding: 5%;
+border: none;
+margin-bottom: 2%;
+border-bottom: 3px solid #9867a6e3;
+  }
+  textarea::-moz-focus-inner {
+    border: 0;
+  }
+  input::placeholder {
+    font-weight: bolder;
+    opacity: .5;
+    color: black;
+}
+textarea::placeholder {
+    font-weight:bolder;
+    opacity: .5;
+    color: black;
+}
+button#mybtn{
+    display: block;
+    margin: auto;
+    border: 1px solid #6f42c14d ;
+    width: 26%;
+    padding: 1%;
+    background-color: #6f42c14d;
+    border-radius: 6px;
+}
+button#mybtn:hover{
+    background-color: #6eca77;
+}
+div#information{
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
+div.contact-data{
+    margin: auto;
+    background-color: beige;
+    padding: 2%;
+}
+iframe#mymap{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: block;
+
+}
+div.errMsg{
+    color: #100f0f;
+    margin-bottom: 1%;
+    font-size: medium;
+    font-weight: 700;
+}
+@media (max-width:420px) {
+    div.filed-wrap textarea{
+        width: 90%;
+    }
+}

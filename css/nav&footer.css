@@ -1,0 +1,108 @@
+@media (max-with:660px) {
+    .navlogo .wrapLogo {
+        padding: 0 0 0.3em 0;
+    text-align: center;
+    }
+}
+nav.navbar{
+    background-color: beige;
+}
+li.nav-item:hover{
+    color: white;
+    background-color: #3fbc53bd;
+   
+    border-radius: 5px;
+}
+li.nav-item{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+}
+a.nav-link{
+    font-family:'Oswald','sans-serif';
+}
+div.icons-wrap
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #a377b024;
+    padding: 3vh;
+}
+div.icons-wrap a {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    border-radius: 50px;
+    overflow: hidden;
+    background: gray;
+    border: 3px solid #fff;
+    margin: 0 0.3em;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 32%);
+    transition: .3s;
+    text-align: center;
+}
+div.icons-wrap a i{
+    display: block;
+    line-height: 1.6em;
+    color: #fdf8e5;
+    font-size: 1.7em;
+}
+div.icons-wrap a.facebook{
+background-color: #3f69d8;
+}
+div.icons-wrap a.twitter{
+    background: #2cbee3;
+}
+div.icons-wrap a.instagram{
+    background: #be209b;
+}
+div.icons-wrap a.youtube{
+    background: #cd201f;
+}
+div.icons-wrap a:hover {
+    background: #3e3d3d;
+}
+footer{
+    height: 30vh;
+    background-color: beige;
+}
+p#copyRight{
+    margin-top: 2%;
+
+}
+div#navbarSupportedContent{
+    margin-left: 12%;
+}
+a.nav-link.active{
+    border-radius: 5px;
+    background-color: #3fbc53bd;
+}
+@media screen and (max-width: 600px){
+    .navbar {
+        position: relative;
+        float: none;
+    }
+}
+@media (max-width:420px) {
+    .navbar-toggler 
+    {
+        margin: auto;
+    }
+    .navbar-nav{
+        width: 50%;
+    }
+    div.navbar-collapse{
+        margin-left: 0%;
+margin: auto;
+    }
+    .wrapLogo{
+        width: 100%;
+    }
+    .card-text{
+        font-size: xx-small;
+        width: 50%;
+    }
+
+}

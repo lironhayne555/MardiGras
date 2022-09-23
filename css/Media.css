@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pattaya'; 
+    font-family: 'Henny Penny';  
+    font-family: 'Roboto', sans-serif;  
+
+       
+}
+body{
+    background-color: beige;
+}
+div.media-gallery{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    position: relative;
+    width: 100%;
+}
+div.media-gallery a img{
+width: 100%;
+height: 100%;
+}
+div.media-gallery a{
+    width: 90%;
+    margin: 2%;
+    position: relative;
+}
+div#text-video{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    margin: 6%;
+    text-decoration: none;
+    font-size: large;
+}
+
+
